@@ -25,12 +25,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/Screenshot_1.png)
+![Screenshot](./images/Screenshot_1.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Guilherme-Marostica-dev/Order-summary-card)
-- Live Site URL: [Add live site URL here](order-summary-card-zeta.vercel.app)
+- Solution URL: [Solution](https://github.com/Guilherme-Marostica-dev/Order-summary-card)
+- Live Site URL: [Vercel App](https://order-summary-card-zeta.vercel.app)
 
 ## My process
 
