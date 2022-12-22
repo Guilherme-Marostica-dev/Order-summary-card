@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+/*font-family: 'Red Hat Display', sans-serif;*/
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    width: 375px;
+    background-color: hsl(225, 100%, 94%);
+    background-image: url("images/pattern-background-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+}
+
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    width: auto;
+    margin: 20px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-image {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.main-text h1 {
+    font-weight: 900;
+}
+
+.main-text p {
+    margin: 0;
+    padding: 0 20px 20px 20px; 
+    font-size: 18px;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+}
+
+.plan {
+    border-radius: 20px;
+    margin: 20px;
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+}
+
+.details h4 {
+    margin-bottom: 1px;
+}
+
+.details p{
+    margin-top: 1px;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+}
+
+.buttons {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.proceed {
+    font-weight: 900;
+    color: aliceblue;
+    background-color: hsl(245, 75%, 52%);
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    width: 85%;
+    box-shadow: 5px 5px 10px hsl(224, 23%, 55%);
+}
+
+.cancel {
+    margin-bottom: 20px;
+    font-weight: 900;
+    color: hsl(224, 23%, 55%);;
+    background: none;
+    border: none;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+
+@media screen and (min-width: 376px){
+
+    body{
+        background-image: url("images/pattern-background-desktop.svg");
+        width: 1440px;
+    }
+
+    .card{
+        margin: 40px auto;
+        width: 30%;
+    }
+}
