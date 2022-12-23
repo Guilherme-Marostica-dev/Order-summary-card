@@ -19,7 +19,6 @@ body {
     background-color: hsl(0, 0%, 100%);
     width: auto;
     margin: 20px;
-    border: 1px solid gray;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
